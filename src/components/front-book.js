@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import FrontBook from '../../static/books/book1.png'
+import FrontBook from '../../static/books/book3.png'
 // import Accordions from '../containers/accordions'
 
 const MidBook = (props) => {
@@ -24,11 +24,11 @@ const MidBook = (props) => {
                             </h1>
 
                             <p data-aos="fade-up" data-aos-duration="2000">
-                                He was supposed to be a job. A target that needed to be eliminated. A message that we weren't a family to mess with, buth when my chance came, I couldn't do it.
+                            The The day Peyton Jessop walked into my life, I was six years old. I'd spent that whole summer wondering if anyone would ever move into the creepy old Barkley house next door to me.
                             </p>
 
                             <button className="btn-book-featured" data-aos="fade-up" data-aos-duration="3000">
-                                <Link to="/about-the-book">
+                                <Link to="/books">
                                     Read More
                                 </Link>
                             </button>

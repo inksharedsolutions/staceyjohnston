@@ -56,8 +56,8 @@ const Nav = (props) => {
                 </li>
 
                 <li>
-                    <Link to="/about-the-book">
-                        Book
+                    <Link to="/books">
+                        Books
 					</Link>
                 </li>
 

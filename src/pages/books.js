@@ -14,7 +14,7 @@ const ATB = (props) => {
     const slug = (props.location.href);
 
     const disqusConfig = {
-        shortname: 'charles-curtis',
+        shortname: 'stacey-johnston',
         config: { identifier: 12, slug }
     }
 
@@ -25,8 +25,8 @@ const ATB = (props) => {
                 <Nav pathExt={props.path} />
 
                 <Banner
-                    spanFirst={`About The`}
-                    contextHeading={`Book`}
+                    spanFirst={``}
+                    contextHeading={`Books`}
                 />
 
                 <main className="wrapperMain">
@@ -140,14 +140,10 @@ const ATB = (props) => {
 
 
                                 <section className="fullSection">
-                                    <nav className="booklinkBlocks">
-                                        <span>Ebooks :</span>
-                                        <span>Soon...</span>
-                                    </nav>
-
-                                    <nav className="booklinkBlocks">
-                                        <span>Purchase Paperback :</span>
-                                        <span>Soon...</span>
+                                    <nav className="comming-soon">
+                                        <span>
+                                            Comming Soon...
+                                        </span>
                                     </nav>
                                 </section>
 
@@ -174,11 +170,9 @@ const ATB = (props) => {
                         
                                     <div className="content-body" 
                                         >
-                                            <p>The day Perton Jessop walked into my life I was six years old.</p>
-                                            <p>I'd spent that whoe summer wondering if anyone would ever move into the creepy old Barkley house next door to me. Just before school started I watched as a van pulled up, and a browned hair little girl clutching a stuffed bear climbed out.</p>
-                                            <p>Peyton was feisty and fun to be around, but her life at home was troubled. That brown haired girl weaved her way into my heart.</p>
-                                            <p>She was supposed to be my ever after.</p> 
-                                            <p>Well....... that was the plan until her mother died, and her father ripped her away from me.</p>
+                                            <p>
+                                            The The day Peyton Jessop walked into my life, I was six years old. I'd spent that whole summer wondering if anyone would ever move into the creepy old Barkley house next door to me. Just before school started, I watched as a van pulled up and a brown-haired little girl clutching a stuffed bear climbed out. Peyton was feisty and fun to be around, but her life at home was troubled. That brown-haired girl weaved her way into my heart. She was supposed to be my ever after. Well, that was the plan until her mother died and her father ripped her away from me. 
+                                            </p>
                                         </div>
                                 </section>
 
@@ -186,12 +180,16 @@ const ATB = (props) => {
                                 <section className="fullSection">
                                     <nav className="booklinkBlocks">
                                         <span>Ebooks :</span>
-                                        <span>Soon...</span>
+                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Coming-Home-California-Dreaming-Book-ebook/dp/B08KWMDQF6/ref=sr_1_1?dchild=1&keywords=9781648952074&qid=1602270615&sr=8-1">Amazon</a></li>
+                                        {/* <li><a rel="noopener noreferrer" target="_blank" href="">Stratton Press</a></li> */}
+                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/coming-home-stacey-johnston/1137881709?ean=9781648952074">Barnes & Noble</a></li>
                                     </nav>
 
                                     <nav className="booklinkBlocks">
                                         <span>Purchase Paperback :</span>
-                                        <span>Soon...</span>
+                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/dp/1643455567/ref=sr_1_1?dchild=1&keywords=9781643455563&qid=1602271001&sr=8-1">Amazon</a></li>
+                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/coming-home-stacey-johnston/1137881709?ean=9781643455563">Barnes & Noble </a></li>
+                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.booksamillion.com/p/Coming-Home/Stacey-Johnston/9781643455563?id=8009965417365&_ga=2.61108911.2077251330.1602668715-1770015116.1600996550">Books A Million</a></li>
                                     </nav>
                                 </section>
 

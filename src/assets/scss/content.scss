@@ -233,7 +233,7 @@
         font-style: italic;
         font-size: 20px;
         color: #bdbdbd !important;
-        // text-shadow: 0 0 9px black;
+        // text-shadow: 3px 0 0 rgb(73, 73, 73), 0 3px 0 rgb(73, 73, 73), -3px 0 0 rgb(73, 73, 73), 0 -3px 0 rgb(73, 73, 73);
         animation:  glow 10s infinite;
     }
 }

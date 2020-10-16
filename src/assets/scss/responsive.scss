@@ -10,12 +10,12 @@
     }
 
     .banner-section {
-        height: 50% !important;
-        &:after {
-            height: 119% !important;
-            width: 100% !important;
+            height: 50% !important;
+            &:after {
+                height: 114% !important;
+                width: 100% !important;
+            }
         }
-    }
 }
 
 @media screen and (max-width : 1300px) {

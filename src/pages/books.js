@@ -142,7 +142,7 @@ const ATB = (props) => {
                                 <section className="fullSection">
                                     <nav className="comming-soon">
                                         <span>
-                                            Comming Soon...
+                                            Coming Soon...
                                         </span>
                                     </nav>
                                 </section>
@@ -160,7 +160,7 @@ const ATB = (props) => {
                             <div className="column">
                                 <section className="contentBook">
 
-                                    <h1>COMMING HOME</h1>
+                                    <h1>COMING HOME</h1>
                                     <p className="sub-heading">
                                         California Dreaming, Book IV
                                     </p>

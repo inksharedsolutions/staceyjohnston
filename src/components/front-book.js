@@ -24,7 +24,7 @@ const MidBook = (props) => {
                             </h1>
 
                             <p data-aos="fade-up" data-aos-duration="2000">
-                            The The day Peyton Jessop walked into my life, I was six years old. I'd spent that whole summer wondering if anyone would ever move into the creepy old Barkley house next door to me.
+                            Two lives entwined in secrets, secrets that threaten to tear them apart before they even begin…
                             </p>
 
                             <button className="btn-book-featured" data-aos="fade-up" data-aos-duration="3000">

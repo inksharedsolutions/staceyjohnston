@@ -8,6 +8,8 @@ import Book1 from '../../static/books/book1.png'
 import Book2 from '../../static/books/book2.png'
 import Book3 from '../../static/books/book3.png'
 import Book4 from '../../static/books/book4.png'
+import Book5 from '../../static/books/book5.png'
+import Book6 from '../../static/books/book6.png'
 
 const ATB = (props) => {
 
@@ -70,33 +72,15 @@ const ATB = (props) => {
                                 id: 'the_gifted_one',
                                 content:
                                     `
-                                    <p>
-                                    Sherlyn 
-                                    </p> 
-                                    <p>
-                                    If there is anything Sherlyn has learned, it’s that the past is a cruel reminder of a life that can no longer be lived.  
-                                    </p>
-                                    <p>
-                                    After the death of her father, eighteen-year-old Sherlyn uncovers hidden truths about his life and the horrific deeds he committed that could have a lasting impact on her life. As she struggles with the reality of her haunted past, she realizes that these unexpected truths may not be so easy to bury. 
-                                    </p>
-                                    <p>
-                                    When her mother dies under tragic circumstances, Sherlyn leans on her best friend, Sophie Valentine, and her family, but even their love and support can’t erase her heartache. When she attracts the attention of one of her father’s former associates, she can’t help but wonder if everything she ever knew was a lie. 
-                                    </p>
-                                    <p>
-                                    Stephen  
-                                    </p>
-                                    <p>
-                                    With the threat of a menacing hit man now eliminated, Stephen is finally free from the prison that was his life for the past four years. When he is forced to move back to California, he is torn away from the one person who brings light into his world of darkness. Sherlyn’s absence sends Stephen into a vortex of chaos and self-doubt, which begins to affect his every action. Even the best of intentions can’t stop Stephen from pushing away the light to continue his journey through the darkness alone. It’s everything he can do just to keep the remnants of his life intact—until tragedy strikes.   
-                                    </p>
-                                    <p>
-                                    A girl struggling to find her way. 
-                                    </p>
-                                    <p>
-                                    A boy trying to control his demons from the past.  
-                                    </p>
-                                    <p>
-                                    Can a shy girl curb the controlling nature of the boy she loves, and will either of them survive the sins of the father?    
-                                    </p>
+                                    <p>Sherlyn</p> 
+                                    <p>If there is anything Sherlyn has learned, it’s that the past is a cruel reminder of a life that can no longer be lived.</p>
+                                    <p>After the death of her father, eighteen-year-old Sherlyn uncovers hidden truths about his life and the horrific deeds he committed that could have a lasting impact on her life. As she struggles with the reality of her haunted past, she realizes that these unexpected truths may not be so easy to bury.</p>
+                                    <p>When her mother dies under tragic circumstances, Sherlyn leans on her best friend, Sophie Valentine, and her family, but even their love and support can’t erase her heartache. When she attracts the attention of one of her father’s former associates, she can’t help but wonder if everything she ever knew was a lie.</p>
+                                    <p>Stephen</p>
+                                    <p>With the threat of a menacing hit man now eliminated, Stephen is finally free from the prison that was his life for the past four years. When he is forced to move back to California, he is torn away from the one person who brings light into his world of darkness. Sherlyn’s absence sends Stephen into a vortex of chaos and self-doubt, which begins to affect his every action. Even the best of intentions can’t stop Stephen from pushing away the light to continue his journey through the darkness alone. It’s everything he can do just to keep the remnants of his life intact—until tragedy strikes.</p>
+                                    <p>A girl struggling to find her way.</p>
+                                    <p>A boy trying to control his demons from the past.</p>
+                                    <p>Can a shy girl curb the controlling nature of the boy she loves, and will either of them survive the sins of the father?</p>
                                     `,
 
                                 ebooks: {
@@ -111,24 +95,20 @@ const ATB = (props) => {
                                 }
                             }}
                         />
+
                         <div className="columns book-container-ft">
                             <div className="column">
                                 <div className="bookImgContainer">
                                     <img alt="main-book" src={Book1} />
                                 </div>
                             </div>
-
                             <div className="column">
                                 <section className="contentBook">
-
                                     <h1>AFTER THE DUST SETTLES</h1>
                                     <p className="sub-heading">
                                         California Dreaming, Book III
-                                    </p>
-                                    
+                                    </p>                                    
                                     <span></span>
-
-                        
                                     <div className="content-body" 
                                         >
                                             <p>He was supposed to be a job. A target that needed to be eliminated. A message that we weren't a family to mess with, buth when my chance came, I couldn't do it.</p>
@@ -137,8 +117,6 @@ const ATB = (props) => {
                                             <p>I need someone to swoop in and save me, but I'm scared because bad things happen to me - and the people I love.</p>
                                         </div>
                                 </section>
-
-
                                 <section className="fullSection">
                                     <nav className="comming-soon">
                                         <span>
@@ -146,10 +124,9 @@ const ATB = (props) => {
                                         </span>
                                     </nav>
                                 </section>
-
-
                             </div>	
                         </div>
+
                         <div className="columns book-container-ft">
                             <div className="column">
                                 <div className="bookImgContainer">
@@ -159,41 +136,91 @@ const ATB = (props) => {
 
                             <div className="column">
                                 <section className="contentBook">
-
                                     <h1>COMING HOME</h1>
                                     <p className="sub-heading">
                                         California Dreaming, Book IV
                                     </p>
-                                    
                                     <span></span>
-
-                        
-                                    <div className="content-body" 
-                                        >
-                                            <p>
+                                    <div className="content-body">
+                                        <p>
                                             The The day Peyton Jessop walked into my life, I was six years old. I'd spent that whole summer wondering if anyone would ever move into the creepy old Barkley house next door to me. Just before school started, I watched as a van pulled up and a brown-haired little girl clutching a stuffed bear climbed out. Peyton was feisty and fun to be around, but her life at home was troubled. That brown-haired girl weaved her way into my heart. She was supposed to be my ever after. Well, that was the plan until her mother died and her father ripped her away from me. 
-                                            </p>
-                                        </div>
+                                        </p>
+                                    </div>
                                 </section>
-
-
                                 <section className="fullSection">
                                     <nav className="booklinkBlocks">
-                                        <span>Ebooks :</span>
+                                        <span>Ebook:</span>
                                         <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Coming-Home-California-Dreaming-Book-ebook/dp/B08KWMDQF6/ref=sr_1_1?dchild=1&keywords=9781648952074&qid=1602270615&sr=8-1">Amazon</a></li>
                                         {/* <li><a rel="noopener noreferrer" target="_blank" href="">Stratton Press</a></li> */}
                                         <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/coming-home-stacey-johnston/1137881709?ean=9781648952074">Barnes & Noble</a></li>
                                     </nav>
-
                                     <nav className="booklinkBlocks">
-                                        <span>Purchase Paperback :</span>
+                                        <span>Paperback:</span>
                                         <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/dp/1643455567/ref=sr_1_1?dchild=1&keywords=9781643455563&qid=1602271001&sr=8-1">Amazon</a></li>
                                         <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/coming-home-stacey-johnston/1137881709?ean=9781643455563">Barnes & Noble </a></li>
                                         <li><a rel="noopener noreferrer" target="_blank" href="https://www.booksamillion.com/p/Coming-Home/Stacey-Johnston/9781643455563?id=8009965417365&_ga=2.61108911.2077251330.1602668715-1770015116.1600996550">Books A Million</a></li>
                                     </nav>
                                 </section>
+                            </div>	
+                        </div>
 
+                        <div className="columns book-container-ft">
+                            <div className="column">
+                                <div className="bookImgContainer">
+                                    <img alt="After the Rain book cover" src={Book5} />
+                                </div>
+                            </div>
 
+                            <div className="column">
+                                <section className="contentBook">
+                                    <h1>After the Rain</h1>
+                                    <span></span>
+                                    <div className="content-body">
+                                        <p>
+                                            When a child is born they're a blank canvas. A canvas that is later molded by the influences of the world around them. Those influences determine that child’s future, but they are not always kind. Some of those children will enter adulthood easily, unscathed by the harshness of life, but for others, that journey is not an easy path to follow. 
+                                        </p>
+                                    </div>
+                                </section>
+                                <section className="fullSection">
+                                    <nav className="booklinkBlocks">
+                                        <span>Ebook:</span>
+                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/After-Rain-Stacey-Johnston-ebook/dp/B07BJ8QFTS/">Amazon</a></li>
+                                    </nav>
+                                    <nav className="booklinkBlocks">
+                                        <span>Paperback:</span>
+                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/After-Rain-Stacey-Johnston/dp/1717039030/">Amazon</a></li>
+                                    </nav>
+                                </section>
+                            </div>	
+                        </div>
+
+                        <div className="columns book-container-ft">
+                            <div className="column">
+                                <div className="bookImgContainer">
+                                    <img alt="Writing My Own Destiny book cover" src={Book6} />
+                                </div>
+                            </div>
+
+                            <div className="column">
+                                <section className="contentBook">
+                                    <h1>Writing My Own Destiny</h1>
+                                    <span></span>
+                                    <div className="content-body">
+                                        <p>
+                                            ‘We love Aussies,’ they said, ‘the readers will eat you up’. Those seven little words got me on a plane to the USA for the ‘Raunchy with a touch of sexiness – Valentine’s Day Author Event’ in Miami. I’m a romance author. A girl with a vivid imagination, and an overactive sex drive. Oh, and yes I’m Australian When I agreed the so-called love of my life had just walked out on me, leaving me with two little girls. All I wanted was a little fun and some no strings attached fun while I was there. It would be my very own ‘what happens in Miami, stays in Miami’. Unless I fall in love with an American There’s no such thing as a happily ever after in real life Is there?
+                                        </p>
+                                    </div>
+                                </section>
+                                <section className="fullSection">
+                                    <nav className="booklinkBlocks">
+                                        <span>Ebook:</span>
+                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Writing-Own-Destiny-Stacey-Johnston-ebook/dp/B06XZ8YCCH/">Amazon</a></li>
+                                    </nav>
+                                    <nav className="booklinkBlocks">
+                                        <span>Paperback:</span>
+                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Writing-Own-Destiny-Stacey-Johnston/dp/1521000727/">Amazon</a></li>
+                                    </nav>
+                                </section>
                             </div>	
                         </div>
 

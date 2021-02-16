@@ -83,6 +83,7 @@ const Nav = (props) => {
                         <img
                             className="logo-img"
                             src={Logo}
+                            alt="logo"
                         />
 
                     </Link>

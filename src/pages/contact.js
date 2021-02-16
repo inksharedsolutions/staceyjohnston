@@ -79,12 +79,12 @@ const Contact = (props) => {
 
                             <div className="columns">
                                 <div className="column is-full" id="textAreaContainer">
-                                    <label> Message	</label>
+                                    <label> Message	
                                     <textarea type="text" name='message'
-                                        className="textArea"
+                                        className="formInputs textArea"
                                         placeholder='Message'
                                         required />
-
+                                    </label>
 
                                     <div className="buttonContainer">
                                         <input

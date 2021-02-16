@@ -35,7 +35,7 @@ const MidBook = (props) => {
 
                         </div>
                         <div className="book-wraps" >
-                            <img src={FrontBook} data-aos="fade-up" data-aos-duration="3000" />
+                            <img src={FrontBook} data-aos="fade-up" data-aos-duration="3000" alt="book cover" />
                         </div>
                     </div>
                 </div>

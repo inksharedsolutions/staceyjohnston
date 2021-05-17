@@ -7,9 +7,11 @@ import MidBook from '../components/front-book';
 import Author from '../components/author';
 // import ParallaxBottom from "../components/parallax-bottom"
 import FeaturedLogos from '../components/mid-main';
+import { Helmet } from 'react-helmet';
 
 const IndexPage = (props) => (
 	<Layout>
+		<Helmet title="Home | Stacey Johnston" />
 		<Nav pathExt={props.path} />
 		<Banner />
 		<br />

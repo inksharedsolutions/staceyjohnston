@@ -10,6 +10,7 @@ import Book3 from '../../static/books/book3.png'
 import Book4 from '../../static/books/book4.png'
 import Book5 from '../../static/books/book5.png'
 import Book6 from '../../static/books/book6.png'
+import { Helmet } from 'react-helmet'
 
 const ATB = (props) => {
 
@@ -24,6 +25,7 @@ const ATB = (props) => {
     return (
         <>
             <Layout>
+                <Helmet title="Books | Stacey Johnston" />
                 <Nav pathExt={props.path} />
 
                 <Banner

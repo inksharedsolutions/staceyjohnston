@@ -3,12 +3,14 @@ import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
 import AuthorImg from '../../static/author/author.jpg'
+import { Helmet } from 'react-helmet'
 
 const ATB = (props) => {
 
     return (
         <>
             <Layout>
+                <Helmet title="Author | Stacey Johnston" />
                 <Nav pathExt={props.path} />
 
                 <Banner
